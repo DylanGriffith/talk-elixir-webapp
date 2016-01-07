@@ -28,6 +28,10 @@ defmodule Duckex.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:cowboy, "~> 1.0"},
+      {:plug, "~> 1.0"},
+      {:exrm, "~> 0.19"},
+    ]
   end
 end
