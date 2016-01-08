@@ -5,7 +5,7 @@ defmodule Duckex.Router do
   plug :dispatch
 
   def start_link do
-    Plug.Adapters.Cowboy.http __MODULE__, []
+    Plug.Adapters.Cowboy.http __MODULE__, [], [port: 5151]
   end
 
   get "/" do

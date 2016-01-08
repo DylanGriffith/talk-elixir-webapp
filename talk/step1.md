@@ -53,7 +53,7 @@ defmodule Duckex.Router do
   plug :dispatch
 
   def start_link do
-    Plug.Adapters.Cowboy.http __MODULE__, []
+    Plug.Adapters.Cowboy.http __MODULE__, [], [port: 5151]
   end
 
   get "/" do
@@ -71,4 +71,6 @@ end
 $ mix run --no-halt
 ```
 
-[Check it out](http://localhost:4000)
+[Check it out](http://localhost:5151)
+
+https://www.facebook.com/dialog/feed?to=513077892146229&app_id=145634995501895&redirect_uri=https://developers.facebook.com/tools/explorer
