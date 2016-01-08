@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+  <h1>Estimate</h1>
+  For <%= number_of_people %> people you need <%= number_of_ducks %> ducks.
+  </body>
+</html>
