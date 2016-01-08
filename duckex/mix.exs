@@ -14,7 +14,8 @@ defmodule Duckex.Mixfile do
   #
   # Type "mix help compile.app" for more information
   def application do
-    [applications: [:logger],
+    [applications: [:logger, :cowboy, :plug],
+    included_applications: [:eex],
      mod: {Duckex, []}]
   end
 
