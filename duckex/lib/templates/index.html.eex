@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  </head>
+  <body>
+  <h1>Welcome To Duckex!</h1>
+  <form action="/estimate" method="GET">
+    <label for="people"># People</label>
+    <input type="number" name="people"/>
+    <input type="submit" value="Submit"/>
+  </form>
+  </body>
+</html>

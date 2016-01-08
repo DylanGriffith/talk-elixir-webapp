@@ -9,7 +9,7 @@ defmodule Duckex.Router do
   end
 
   get "/" do
-    send_resp(conn, 200, "<h1>Hello, Duck!</h1>")
+    send_resp(conn, 200, Duckex.Template.index)
   end
 
   match _ do
