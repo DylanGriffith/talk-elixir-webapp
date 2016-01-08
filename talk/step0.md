@@ -1,3 +1,10 @@
+# Covers
+- Plug (kinda)
+- Plug.Router
+- exrm
+- Nginx
+- EEx
+
 # Prepare The Server
 1. Debian Server
 2. Elixir Installed (see erlang solutions repository)
