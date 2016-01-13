@@ -1,9 +1,19 @@
+# Timer!!!!!!!!!
+
+# Talk About
+- Learning Talking
+- Talk will be introductory
+- Without Phoenix
+- Talk will be on github (linked to from slack)
+
 # Covers
 - Plug (kinda)
 - Plug.Router
 - exrm
 - Nginx
 - EEx
+
+# Duckex Problem
 
 # Prepare The Server
 1. Debian Server
